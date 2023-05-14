@@ -1,0 +1,26 @@
+How to add libraries to your project.
+
+The libraries used by this project are included with the project starter code. They are placed 
+in the lib directory. Navigate there and you will see these two jar files:
+
+jcommon-1.0.23.jar
+jfreechart-1.0.19.jar
+
+These libraries are imported in the CategoryDataModel class (look at the two import statements).
+
+In order to use the jFreeChart libraries, you will need to put the two jar files into the class path of your jGrasp project.
+
+
+To Add to the libraries to your project, go to Settings -> PATH/CLASSPATH -> Project   
+(Don't select workspace) 
+
+Click on the "Path" tab, and then the "CLASSPATHS" subtab.
+
+Then Click "New" and where it says Directory Path or Jar file, browse to the location of one of the jar files (see above for location), select the jar file, click Choose, then click OK.
+You see a new entry in the CLASSPATH list.
+
+Do this for the second jar file.
+You should now see two entries in the CLASSPATH list.
+
+And then click Apply, then OK. 
+You should now be able to compile the project and use these libraries.
